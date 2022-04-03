@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395205953713",
+    "project_id": "neat-roots-chattingapp-621fc",
+    "storage_bucket": "neat-roots-chattingapp-621fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395205953713:android:5402e9435a668d67a67a90",
+        "android_client_info": {
+          "package_name": "com.example.chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395205953713-9u6ud5s0bu4sp7oj9uq5k9i1sgtetvcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU_CIU2WZ7Gnm5z_qCF9ZhFt8vfq9zyFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395205953713-9u6ud5s0bu4sp7oj9uq5k9i1sgtetvcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
