@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.chattingapp.Adapters.FragmentsAdapter;
 import com.example.chattingapp.databinding.ActivityMainBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         auth = FirebaseAuth.getInstance();
+
+        binding.viewPager.setAdapter(new FragmentsAdapter(getSupportFragmentManager()));
+        binding.tablayout.setupWithViewPager(binding.viewPager);
     }
 
     @Override
